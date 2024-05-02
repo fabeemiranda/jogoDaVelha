@@ -24,7 +24,7 @@ function iniciar() {
 }
 
 function exibir() {
-    let tabela = '<table cellpadding="25" cellspacing="5" border="5">'
+    let tabela = '<table cellpadding="25" cellspacing="5">'
 
     for(let i = 0; i < 3; i++){
         tabela += '<tr>'
@@ -36,7 +36,7 @@ function exibir() {
             }
 
 
-            tabela += '<td>'+marcador+'</td>'
+            tabela += '<td class = "border border-2 ">'+marcador+'</td>'
         }
         tabela += '</tr>'    
     }
